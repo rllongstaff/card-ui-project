@@ -8,7 +8,15 @@ body {
     font-family: 'Bowlby One', cursive; 
     font-size: 4.5rem;
     text-align: center; 
-    text-shadow: 3px 5px 5px rgba($color-grey-dark-3, .5);    
+    text-shadow: 3px 5px 5px rgba($color-grey-dark-3, .5);   
+    
+    @include respond(tablet-portrait) {
+        font-size: 4rem;
+    }    
+
+    @include respond(phone) {
+        font-size: 3.5rem; 
+    }
 }
 
 .article {
