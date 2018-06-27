@@ -1,0 +1,19 @@
+.grid {
+    width: 90%;
+    max-width: 124rem; // Equivalent to 1240px as each rem is 10px
+    margin: 0 auto;
+
+    display: grid;
+    grid: auto / repeat(4, 1fr);
+    grid-gap: 1rem;
+
+    @include respond(tablet-portrait) {
+        grid: auto / repeat(2, 1fr);
+    }
+
+    @include respond(phone) {
+        grid: auto / 1fr;
+    }
+
+
+}

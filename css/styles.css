@@ -1,0 +1,55 @@
+/* 
+0 - 600px Phone
+600px - 900px Tablet Portrait Mode
+900px - 1200px Tablet Landscape Mode
+1200px - 1800px Normal Styles Apply
+1800px + Big Screen Desktop
+$breakpoint argument choices:
+-phone
+-tablet-portrait
+-tablet-landscape
+-big-desktop
+ORDER: Base + typography > general layout + grid > page layout > components
+1em = 16px
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem; }
+
+.header__heading {
+  font-family: 'Bowlby One', cursive;
+  font-size: 4.5rem;
+  text-align: center; }
+
+.article__heading {
+  font-weight: 700; }
+
+.footer__copy {
+  text-align: center; }
+
+.grid {
+  width: 90%;
+  max-width: 124rem;
+  margin: 0 auto;
+  display: grid;
+  grid: auto/repeat(4, 1fr);
+  grid-gap: 1rem; }
+  @media only screen and (max-width: 56.25em) {
+    .grid {
+      grid: auto/repeat(2, 1fr); } }
+  @media only screen and (max-width: 37.5em) {
+    .grid {
+      grid: auto / 1fr; } }

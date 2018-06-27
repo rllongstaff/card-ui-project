@@ -1,0 +1,23 @@
+body { 
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem; 
+}
+
+.header__heading{
+    font-family: 'Bowlby One', cursive; 
+    font-size: 4.5rem;
+    text-align: center;    
+}
+
+.article {
+
+    &__heading {
+        font-weight: 700;
+    }
+}
+
+.footer {
+    &__copy {
+        text-align: center;
+    }
+}
