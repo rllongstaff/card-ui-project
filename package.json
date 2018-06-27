@@ -1,0 +1,14 @@
+{
+  "name": "card-ui-project",
+  "version": "1.0.0",
+  "description": "A card UI project utilising both Grid CSS and Flexbox",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "Russell Longstaff",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
