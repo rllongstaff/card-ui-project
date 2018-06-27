@@ -10,14 +10,14 @@
         text-decoration: none; 
         top: 0;
         transition: all .1s ease-in;
+
+        &:hover {
+            top: -2px;
+            box-shadow: 0 4px 5px rgba($color-grey-dark-2, .5);
+        }
     }
 
     &__img {
         width: 100%;
     }
-}
-
-.card:hover {
-    top: -2px;
-    box-shadow: 0 4px 5px rgba($color-grey-dark-2, .5);
 }
