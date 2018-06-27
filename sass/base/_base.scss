@@ -13,5 +13,10 @@ html {
 }
 
 body {
-    box-sizing: border-box;
+    background: url('../img/background.png') $color-grey-light-1; 
+    box-sizing: border-box; 
+}
+
+.section {
+    padding: 3rem 0; 
 }

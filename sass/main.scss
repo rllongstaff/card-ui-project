@@ -1,9 +1,12 @@
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
 
-@import 'base/base';
+@import 'base/base'; 
 @import 'base/typography'; 
+
+@import 'components/article';  
 
 @import 'layout/header';
 @import 'layout/grid'; 
+@import 'layout/flexbox'; 
 @import 'layout/footer';
